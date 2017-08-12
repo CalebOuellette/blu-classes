@@ -6,13 +6,14 @@ export class ProductProps extends BaseProps{
     public name: string;
     public displayName: string;
     public price: string;
-    public imageUrl: string;
+    public imageUrl?: string;
+    public locationID?: string;
+    public description: string;
 }
 
 export class Product extends Base{
 
-    public static props: ProductProps = new ProductProps;
-    public static dbAddress: string = "Products";
-
+    public props: ProductProps = new ProductProps;
+    public dbAddress: string = "Products";
 
 }
