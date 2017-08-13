@@ -6,6 +6,6 @@ export class BaseProps {
 }
 
 export abstract class Base {
-    abstract dbAddress: string;
-    abstract props: BaseProps;
+    static dbAddress: string;
+    static props: BaseProps;
 }

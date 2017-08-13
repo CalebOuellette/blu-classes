@@ -8,7 +8,7 @@ export class OrderItemProps extends BaseProps {
     public orderID: string;
 }
 
-export class OrderItem implements Base {
-    props: OrderItemProps = new OrderItemProps();
-    dbAddress: string = "OrdersItems";
+export class OrderItem extends Base {
+    public static props: OrderItemProps = new OrderItemProps();
+    public static dbAddress: string = "OrdersItems";
 }

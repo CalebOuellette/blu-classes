@@ -6,7 +6,7 @@ export class OrderProps extends BaseProps {
     public orderTime: Date; //Time at which the customer confirmed the order.
 }
 
-export class Order implements Base {
-    props: OrderProps = new OrderProps();
-    dbAddress: string = "Orders";
+export class Order extends Base {
+    public static props: OrderProps = new OrderProps();
+    public static dbAddress: string = "Orders";
 }

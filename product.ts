@@ -13,7 +13,7 @@ export class ProductProps extends BaseProps{
 
 export class Product extends Base{
 
-    public props: ProductProps = new ProductProps;
-    public dbAddress: string = "Products";
+    public static props: ProductProps = new ProductProps;
+    public static dbAddress: string = "Products";
 
 }
