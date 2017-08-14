@@ -6,6 +6,7 @@ export class LocationProps extends BaseProps {
     public hours: string;
     public address: string;
     public logoUrl: string;
+    public partnered: boolean;
 }
 
 export class Location extends Base {
