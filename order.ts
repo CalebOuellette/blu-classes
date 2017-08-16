@@ -5,6 +5,8 @@ export class OrderProps extends BaseProps {
     public customerID: string; //
     public orderTime: Date; //Time at which the customer confirmed the order.
     public paymentType: string;
+    public from: string;
+    public to: string;
 }
 
 export class Order extends Base {
