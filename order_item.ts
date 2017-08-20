@@ -6,8 +6,9 @@ export class OrderItemProps extends BaseProps {
     public description: string;    
     public productID?: string;
     public orderID: string;
-    public locationDescription: string;
-    public alternativeItemDescription: string;
+    public locationDescription?: string;
+    public locationID?: string;
+    public alternativeItemDescription?: string;
 }
 
 export class OrderItem extends Base {
