@@ -1,8 +1,9 @@
 export class BaseProps {
-    public createdDate: Date;
-    public updatedDate: Date;
+    public createdDate: number;
+    public updatedDate: number;
     public updatedBy: string;
     public createdBy: string;
+    public $key: string;
 }
 
 export abstract class Base {
