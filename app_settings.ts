@@ -2,6 +2,8 @@ import { Base, BaseProps } from './base';
 
 export class AppSettingsProps extends BaseProps  {
     public isOpen: boolean;
+    public closedText: string;
+    public closedSubText: string;
     public deliveryFee: number;
 }
 
